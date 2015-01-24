@@ -10,7 +10,7 @@
   </parent>
  
   <artifactId>batch-si</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>--- Batch -> System implementation</name>
 
   <dependencies>
