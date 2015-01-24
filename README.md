@@ -11,15 +11,15 @@ You will need to configure an environment variable named: BATCH_CONF with the pa
 # Setting up ActiveMQ
 You will need the ActiveMQ binaries from the Apache Software Foundation:
 
-```http://activemq.apache.org/``
+```http://activemq.apache.org/```
 
 Then you have to start the ActiveMQ server, from your terminal:
 
-```${ACTIVE_MQ_HOME}/bin/activemq start``
+```${ACTIVE_MQ_HOME}/bin/activemq start```
 
 Now you can access to your localhost ActiveMQ admin environment:
 
-``http://localhost:8161/admin```
+```http://localhost:8161/admin```
 
 The default user and password are: admin/admin
 
