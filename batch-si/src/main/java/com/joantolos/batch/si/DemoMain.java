@@ -14,7 +14,7 @@ public class DemoMain {
 
     public static void main(String[] args) {
         // init spring context
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("app-context.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring-beans.xml");
 
         // get bean from context
         JmsMessageSender jmsMessageSender = (JmsMessageSender)ctx.getBean("jmsMessageSender");
